@@ -1,0 +1,58 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 50px;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* text-align: center; */
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: fit-content;
+}
+p{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn button{
+    display: none;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    display: none;
+    width: 300px;
+    height: 300px;
+}
