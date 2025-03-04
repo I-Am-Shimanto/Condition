@@ -6,6 +6,7 @@ const nobtn = document.querySelector('.nobtn');
 const qualifiedImage = document.querySelector('.qualifiedimage');
 const disqualifiedImage = document.querySelector('.disqualifiedimage');
 const submit = document.querySelector('.submit');
+const reset = document.querySelector('.reset');
 
 submit.addEventListener('click', ()=>{
     // ======== age validation =========
@@ -56,4 +57,13 @@ submit.addEventListener('click', ()=>{
      else{
         error.innerHTML = "You are not eligible for Licence"
      }
+})
+
+// ========= input=========
+input.addEventListener('click', ()=>{
+    error.innerHTML = ""
+})
+// ========= reset button =========]
+reset.addEventListener('click', ()=>{
+    location.reload()
 })
